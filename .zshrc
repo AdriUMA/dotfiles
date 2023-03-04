@@ -34,6 +34,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ll='ls -la'
 alias cat='bat'
+alias tree='tree -C'
 
 # Keys
 # Control+Arrows
