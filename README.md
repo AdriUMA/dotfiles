@@ -74,6 +74,8 @@ sh arch/autoconfig.sh
 | Git | git | Peticiones de github |  |
 | Kitty | kitty | Terminal acelerada por GPU | `mod`+`\n`  |
 | Xterm | xterm | Terminal por defecto de Qtile|  |
+| ZSH | zsh | Zsh bash | |
+| [PL9K](https://github.com/Powerlevel9k/powerlevel9k) | zsh-theme-powerlevel9k | Tema para zsh | |
 | Firefox | firefox | Navegador | `mod`+`w`  |
 | Visual Studio Code | code | Editor de código fuente | `mod`+`v`  |
 | Rofi | rofi | Ejecutador de programas | `mod`+`r`  |

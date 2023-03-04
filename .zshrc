@@ -18,10 +18,14 @@ bindkey -e
 # Functionals Add-ons
 source .config/zsh/zsh-autosuggestions.zsh
 
+# Theme PowerLevel9K
+source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+POWERLEVEL9K_MODE='nerdfont-complete'
+
 # Alias
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ll='ls -la'
 alias cat='bat'
 
-PROMPT="%K{103}%n%k%K{31}%~%k%F{14}> %f"
+# PROMPT="%K{103}%n%k%K{31}%~%k%F{14}> %f"
