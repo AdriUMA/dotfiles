@@ -21,7 +21,7 @@ def separator(num):
             background=_bg,
             text="",
             font='UbuntuMono Nerd Font',
-            fontsize=45,
+            fontsize=44,
             padding=11,
             width=30,
         )
@@ -33,6 +33,7 @@ screens = [
             [
                 widget.GroupBox(
                     **groupBox,
+                    **groupBoxMain,
                     font='UbuntuMono Nerd Font Mono',
                     fontsize=40,
                     margin_y=2,
@@ -47,9 +48,7 @@ screens = [
 
 
                 widget.WindowName(
-                    font='UbuntuMono Nerd Font Bold',
-                    fontsize=16,
-                    empty_group_string='Arch Linux'
+                    **windowName,
                 ),
 
                 #RIGHT SIDE
@@ -165,6 +164,34 @@ screens = [
                     padding=7,
                     background=group1bg,
                 ),
+            ],
+            28,
+            opacity=0.85,
+        ),
+    ),
+    Screen(
+        top=bar.Bar(
+            [
+                widget.GroupBox(
+                    **groupBox,
+                    **groupBoxSecondary,
+                    font='UbuntuMono Nerd Font Mono',
+                    fontsize=40,
+                    margin_y=2,
+                    margin_x=0,
+                    padding_y=8,
+                    padding_x=10,
+                    borderwidth=1,
+                    urgent_alert_method='none',
+                    disable_drag=True,
+                    toggle=False,
+                ),
+
+
+                widget.WindowName(
+                    **windowName,
+                ),
+
             ],
             28,
             opacity=0.85,

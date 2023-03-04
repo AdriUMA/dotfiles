@@ -120,10 +120,11 @@ cbatticon, [libnotify](https://wiki.archlinux.org/title/Desktop_notifications), 
 | Moverse entre las ventanas | `mod`+`h/j/k/l` |
 | Ajustar tamaño de las ventanas | `mod`+`Ctrl`+`h/j/k/l` |
 | Mover ventanas de posicion | `mod`+`Shift`+`h/j/k/l` |
-| Cambiar layout de las ventanas | `mod`+`Tab` |
+| Cambiar layout de las ventanas | `mod`+`Ctrl`+`Tab` |
 | Cerrar ventana en focus | `mod`+`q` |
 | Mover ventana con el ratón | `mod`+`LMB` |
 | Ajustar tamaño de la ventana con el ratón | `mod`+`RMB` |
 | Alternar modo ventana flotante | `mod`+`f` |
 | Cambiar de espacio de trabajo | `mod`+`1/2/3/4/5` |
-| Cambiar de espacio de trabajo junto a una ventana | `mod`+`Shift`+`1/2/3/4/5` |
+| Cambiar de espacio de trabajo a una ventana | `mod`+`Shift`+`1/2/3/4/5` |
+| Cambiar de monitor | `mod`+`Tab` |

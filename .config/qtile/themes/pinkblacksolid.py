@@ -41,3 +41,16 @@ groupBox = dict(
     other_screen_border="0f101a",
 )
 
+windowName = dict(
+    font='Noto Sans Gujarati UI Bold',
+    fontsize=15,
+    empty_group_string='Arch Linux',
+)
+
+groupBoxMain = dict(
+
+)
+
+groupBoxSecondary = dict(
+
+)

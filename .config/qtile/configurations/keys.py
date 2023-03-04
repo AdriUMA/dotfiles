@@ -38,6 +38,8 @@ keys = [
         desc="Toggle between split and unsplit sides of stack",
     ),
 
+    Key([mod], 'Tab', lazy.next_screen(), desc='Next monitor'),
+
     # CUSTOM SHORTCUTS
     # ------------------
     # Launchers
@@ -50,7 +52,7 @@ keys = [
     Key([mod], "e", lazy.spawn("thunar")),
 
     # Qtile
-    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([mod, "control"], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
