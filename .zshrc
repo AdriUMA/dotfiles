@@ -23,7 +23,8 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # Functionals Add-ons
-source .config/zsh/zsh-autosuggestions.zsh
+# source .config/zsh/zsh-autosuggestions.zsh
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # Alias
 alias ls='ls --color=auto'
