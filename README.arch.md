@@ -1,4 +1,4 @@
-# Arch Linux Qtile
+# Arch Linux
 ## Instalación del Sistema Operativo
 
 > Nota: Ante posibles errores seguir la [guía oficial de instalación](https://wiki.archlinux.org/title/Installation_guide_(Espa%C3%B1ol))
