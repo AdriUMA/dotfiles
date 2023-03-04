@@ -1,6 +1,4 @@
 # Welcome
-PROMPT=$'\e[0;31m$'
-echo siiiii
 neofetch
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -37,6 +35,10 @@ alias grep='grep --color=auto'
 alias ll='ls -la'
 alias cat='bat'
 
+# Keys
+# Control+Arrows
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

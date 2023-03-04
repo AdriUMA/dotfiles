@@ -128,7 +128,7 @@ screens = [
                     line_width=1,
                     padding=0,
                     margin=0,
-                    samples=10,
+                    samples=30,
                     width=50,
                 ),
                 widget.TextBox("", background=group2bg,),

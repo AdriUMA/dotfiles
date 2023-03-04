@@ -31,7 +31,7 @@ firefox https://github.com/AdriUMA/arch &disown
 
 Instalación de todos los paquetes
 ```sh
-sudo pacman -S git kitty code rofi picom feh flameshot brightnessctl pulseaudio pavucontrol bat neofetch man gimp udisks2 ntfs-3g arandr vlc imv thunar xcb-util-cursor lxappearance
+sudo pacman -S git kitty zsh zsh-theme-powerlevel10k code rofi picom feh flameshot brightnessctl pulseaudio pavucontrol bat neofetch man gimp udisks2 ntfs-3g arandr vlc imv thunar xcb-util-cursor lxappearance
 ```
 ```sh
 paru -ubuntu-mono-nerd
