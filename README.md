@@ -103,7 +103,7 @@ sh arch/autoconfig.sh
 | Discord | discord | Llamadas | |
 | PSUtil | psutil | Dependecias de Qtile, desde paru | |
 
-#### Otros paquetes
+### Otros paquetes
 cbatticon, [libnotify](https://wiki.archlinux.org/title/Desktop_notifications), network-manager-applet
 
 ### Shortcuts
