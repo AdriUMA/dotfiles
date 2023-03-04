@@ -40,7 +40,7 @@ paru psutil ttf
 paru pulseaudio-ctl
 ```
 
-Instalacion de Paru
+Instalación de Paru
 ```sh
 sudo pacman -S base-devel
 cd
