@@ -22,7 +22,7 @@ sudo pacman -S xorg
 reboot
 ```
 
-## Paquetes y Configuración
+## Instalación de Paquetes y Configuración
 Instalamos primero Firefox para copiarlo desde github y no tener que escribir todo a mano
 ```
 sudo pacman -S firefox
