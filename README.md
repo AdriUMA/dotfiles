@@ -22,7 +22,7 @@ sudo pacman -S xorg
 reboot
 ```
 
-## Paquetes y Configuración
+## Instalación de Paquetes y Configuración
 Instalamos primero Firefox para copiarlo desde github y no tener que escribir todo a mano
 ```
 sudo pacman -S firefox
@@ -40,7 +40,7 @@ paru psutil ttf
 paru pulseaudio-ctl
 ```
 
-Instalacion de Paru
+Instalación de Paru
 ```sh
 sudo pacman -S base-devel
 cd
@@ -103,7 +103,7 @@ sh arch/autoconfig.sh
 | Discord | discord | Llamadas | |
 | PSUtil | psutil | Dependecias de Qtile, desde paru | |
 
-#### Otros paquetes
+### Otros paquetes
 cbatticon, [libnotify](https://wiki.archlinux.org/title/Desktop_notifications), network-manager-applet
 
 ### Shortcuts
