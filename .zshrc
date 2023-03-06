@@ -26,7 +26,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 # Functionals Add-ons
-source .config/zsh/zsh-autosuggestions.zsh
+source ~/.config/zsh/zsh-autosuggestions.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # Alias
@@ -40,6 +40,7 @@ alias tree='tree -C'
 # Control+Arrows
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
+bindkey "^[[3~" delete-char
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -60,7 +60,7 @@ screens = [
                     foreground=group3fg,
                     background=group3bg,
                 ), 
-                # WIFI WIDGET
+
                 # https://docs.qtile.org/en/latest/manual/ref/widgets.html#pulsevolume
                 widget.PulseVolume(
                     emoji=True,
