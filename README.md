@@ -104,6 +104,7 @@ sh arch/autoconfig.sh
 | Appearance | lxappearance | Instalador de temas | |
 | Discord | discord | Llamadas | |
 | PSUtil | psutil | Dependecias de Qtile, desde paru | |
+| NeoVim | nvim | Editor de texto basado en terminal | |
 
 ### Otros paquetes
 cbatticon, [libnotify](https://wiki.archlinux.org/title/Desktop_notifications), network-manager-applet
