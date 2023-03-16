@@ -12,7 +12,7 @@ nnoremap <M-l> :vertical resize +2<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit and save
-nnoremap <C-q> :wq!<CR>
+nnoremap <C-q> :q<CR>
 
 " TAB in general mode will move to next buffer
 nnoremap <TAB> :bnext<CR>
@@ -27,12 +27,18 @@ inoremap <S-TAB> <C-d>
 " Move selected line / block of text in visual mode
 " shift + k to move up
 " shift + j to move down
-nnoremap K :m -2<CR>
 nnoremap J :m +1<CR>
+vnoremap J :m '>+1<CR>
+nnoremap K :m -2<CR>
+vnoremap K :m '>-2<CR>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Go to begin and end of line in Insert mode
+" inoremap <C-a> <ESC>A
+" inoremap <C-e> <ESC>I
 

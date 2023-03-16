@@ -104,7 +104,11 @@ sh arch/autoconfig.sh
 | Appearance | lxappearance | Instalador de temas | |
 | Discord | discord | Llamadas | |
 | PSUtil | psutil | Dependecias de Qtile, desde paru | |
-| NeoVim | nvim | Editor de texto basado en terminal | |
+| NeoVim | nvim/neovim | Editor de texto basado en terminal | |
+| FZF | fzf | Dependecia de plugins para nvim | |
+| FD | fd | Dependecia de plugins para nvim | |
+| Silver Searcher | the_silver_searcher | Dependecia de plugins para nvim | |
+| CtagGit | ctags-git (yay) | Dependecia de plugins para nvim | |
 
 ### Otros paquetes
 cbatticon, [libnotify](https://wiki.archlinux.org/title/Desktop_notifications), network-manager-applet
