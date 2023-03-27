@@ -36,6 +36,8 @@ alias ll='ls -la'
 alias cat='bat'
 alias tree='tree -C'
 
+alias btkbconnect='sh ~/.btkeyboard.sh'
+
 # Keys
 # Control+Arrows
 bindkey "^[[1;5D" backward-word
