@@ -48,13 +48,13 @@ fi
 /usr/lib/notification-daemon-1.0/notification-daemon &
 
 # Transparency manager program
-#picom -b
+picom -b
 
 # Keyboard layout 
 setxkbmap es &
 
 #Monitor
-xrandr --output VGA-1 --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --primary --mode 1920x1080 --pos 1920x0 --rotate normal &
+xrandr --output DP-1 --off --output DP-2 --off --output HDMI-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DVI-D-1 --off &
 
 #Wallpapaer
 feh --bg-fill .config/Wallpapers/right.jpg --bg-fill .config/Wallpapers/left.jpg

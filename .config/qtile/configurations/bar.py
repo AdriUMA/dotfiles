@@ -19,7 +19,7 @@ def separator(num):
     return widget.TextBox(
             foreground=_fg,
             background=_bg,
-            text="",
+            text="",
             font='UbuntuMono Nerd Font',
             fontsize=44,
             padding=11,
@@ -52,7 +52,7 @@ screens = [
                 ),
 
                 #RIGHT SIDE
-                separator(3),
+                #separator(3),
 
                 #GROUP 3 ---------------------------------------
 
@@ -62,13 +62,13 @@ screens = [
                 ), 
 
                 # https://docs.qtile.org/en/latest/manual/ref/widgets.html#pulsevolume
-                widget.PulseVolume(
-                    emoji=True,
-                    foreground=group3fg,
-                    background=group3bg,
-                    update_interval=0.005,
-                ),
-                
+                #widget.Volume(
+                #    emoji=True,
+                #    foreground=group3fg,
+                #    background=group3bg,
+                #    update_interval=0.005,
+                #),
+
                 separator(2),
                 
                 #GROUP 2 ---------------------------------------
@@ -77,7 +77,7 @@ screens = [
                 widget.TextBox(
                     "󰍛",
                     padding=8, 
-                    foreground="#4EAFFF", 
+                    foreground="#7be1fc", 
                     background=group2bg,
                     fontsize=22,
                 ),
@@ -100,7 +100,7 @@ screens = [
                 widget.TextBox(
                     "",
                     padding=6,
-                    foreground="#FFF23D",
+                    foreground="#f1d06c",
                     background=group2bg,
                     fontsize=16,
                 ),
@@ -117,7 +117,7 @@ screens = [
                 widget.TextBox(
                     "󰋊",
                     padding=7,
-                    foreground="#51EB4C",
+                    foreground="#62e66b",
                     background=group2bg,
                     fontsize=22,
                 ),
@@ -166,7 +166,7 @@ screens = [
                 ),
             ],
             28,
-            opacity=0.85,
+            opacity=0.9,
         ),
     ),
     Screen(
@@ -193,8 +193,8 @@ screens = [
                 ),
 
             ],
-            28,
-            opacity=0.85,
+            26,
+            opacity=0.9,
         ),
     ),
 ]

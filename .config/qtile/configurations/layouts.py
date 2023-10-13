@@ -8,22 +8,23 @@ layouts = [
         margin= 1,
     ),
 
-    layout.MonadTall(
-        border_focus="#F07178",
-        border_width=1,
-        margin= 1,
-    ),
+    # layout.MonadTall(
+    #     border_focus="#F07178",
+    #     border_width=1,
+    #     margin= 1,
+    # ),
 
     layout.MonadWide(
         border_focus="#F07178",
         border_width=1,
-        margin= 1,
+        margin=1,
+        ratio=0.75
     ),
     
     layout.Max(
         border_focus="#F07178",
         border_width=1,
-        margin= 1,
+        margin=1,
     ),
     
     # Try more layouts by unleashing below layouts.
