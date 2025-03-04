@@ -28,7 +28,7 @@ bindkey -e
 
 # Functionals Add-ons
 source ~/.config/zsh/zsh-autosuggestions.zsh
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source /usr/share/zsh-themes/powerlevel10k/powerlevel10k.zsh-theme
 
 # Alias
 alias ls='ls --color=auto'
@@ -36,6 +36,11 @@ alias grep='grep --color=auto'
 alias ll='ls -la'
 alias cat='bat'
 alias tree='tree -C'
+
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gb='git branch'
 
 alias btkbconnect='sh ~/.btkeyboard.sh'
 
