@@ -1,5 +1,4 @@
 /*
-!flameshot
 !htop
 !kitty
 !neofetch
@@ -7,3 +6,4 @@
 !.gitignore
 !nvim
 !hypr
+!waybar
