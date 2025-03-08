@@ -1,0 +1,11 @@
+# Ignore everything by default
+/*
+
+# Keep folders
+!/custom
+/custom/*
+!/custom/themes*
+*example*
+
+# Keep files
+!.gitignore

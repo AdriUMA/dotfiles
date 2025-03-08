@@ -1,11 +1,19 @@
+# Ignore everything by default
 /*
+
+# Keep folders
 !.config
-!.gitignore
+!.local
+!.oh-my-zsh
+
+
+# Keep files
+!.bash_logout
+!.bash_profile
 !.bashrc
-!.gtkrc-2.0
-!.p10k.zsh
+!.gitignore
+#!.gtkrc-2.0 #Sync styles between computers
+!.zshrc
+!.zprofile
 !README.arch.md
 !README.md
-!.zshrc
-!autoconfig.sh
-!dotfiles.sh

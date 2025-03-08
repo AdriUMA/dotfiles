@@ -1,9 +1,35 @@
+# Ignore everything by default
 /*
-!htop
+
+# Keep folders
+!ags
+!btop
+!cava
+!fastfetch
+!gtk-3.0
 !kitty
-!neofetch
+!Kvantum
+!nvim
+!qalculate
+!qt5ct
+!qt6ct
+!rofi
+!swappy
+!swaync
+!Thunar
+!wallust
+!waybar
+!wlogout
+!xfce4
+!xsettingsd
 !zsh
-!.gitignore
 !nvim
 !hypr
 !waybar
+!Thunar 
+
+# Keep files
+!.gitignore
+!mimeapps.list
+!user-dirs.dirs
+!user-dirs.locale
