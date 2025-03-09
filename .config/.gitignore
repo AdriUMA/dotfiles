@@ -10,13 +10,11 @@
 !kitty
 !Kvantum
 !nvim
-!qalculate
 !qt5ct
 !qt6ct
 !rofi
 !swappy
 !swaync
-!Thunar
 !wallust
 !waybar
 !wlogout
@@ -26,7 +24,6 @@
 !nvim
 !hypr
 !waybar
-!Thunar 
 
 # Keep files
 !.gitignore
