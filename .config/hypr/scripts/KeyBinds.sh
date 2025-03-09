@@ -1,5 +1,4 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 # searchable enabled keybinds using rofi
 
 # kill yad to not interfere with this binds
@@ -11,9 +10,8 @@ if pidof rofi > /dev/null; then
 fi
 
 # define the config files
-keybinds_conf="$HOME/.config/hypr/configs/Keybinds.conf"
-user_keybinds_conf="$HOME/.config/hypr/UserConfigs/UserKeybinds.conf"
-laptop_conf="$HOME/.config/hypr/UserConfigs/Laptops.conf"
+user_keybinds_conf="$HOME/.config/hypr/configs/UserKeybinds.conf"
+laptop_conf="$HOME/.config/hypr/configs/Laptops.conf"
 rofi_theme="$HOME/.config/rofi/config-keybinds.rasi"
 msg='☣️ NOTE ☣️: Clicking with Mouse or Pressing ENTER will have NO function'
 

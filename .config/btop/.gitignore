@@ -1,0 +1,9 @@
+# Ignore everything by default
+/*
+
+# Keep folders
+!themes
+
+# Keep files
+!.gitignore
+!btop.conf

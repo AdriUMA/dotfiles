@@ -3,7 +3,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="agnosterzak"
+ZSH_THEME="antares"
 
 plugins=(
     git
@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 #pokemon-colorscripts --no-title -s -r #without fastfetch
 
 # fastfetch. Will be disabled if above colorscript was chosen to install
-fastfetch -c $HOME/.config/fastfetch/config-compact.jsonc
+fastfetch -c $HOME/.config/fastfetch/config.jsonc
 
 # Set-up icons for files/folders in terminal
 alias ls='eza -a --icons'
