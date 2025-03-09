@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script for selecting wallpapers (SUPER W)
+# This script for selecting wallpapers
 
 # WALLPAPERS PATH
 terminal=kitty

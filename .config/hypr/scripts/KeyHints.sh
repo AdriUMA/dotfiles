@@ -15,7 +15,7 @@ fi
 # Launch yad with calculated width and height
 GDK_BACKEND=$BACKEND yad \
     --center \
-    --title="KooL Quick Cheat Sheet" \
+    --title="Adri Quick Cheat Sheet" \
     --no-buttons \
     --list \
     --column=Key: \
@@ -25,7 +25,7 @@ GDK_BACKEND=$BACKEND yad \
 "ESC" "close this app" "" " = " "SUPER KEY (Windows Key Button)" "(SUPER KEY)" \
 " SHIFT H" "Searchable Keybinds" "(Search all Keybinds via rofi)" \
 "" "" "" \
-" enter" "Terminal" "(kitty)" \
+" Enter" "Terminal" "(kitty)" \
 " B" "Launch Browser" "(Default browser)" \
 " A" "Desktop Overview" "(AGS - if opted to install)" \
 " R" "Application Launcher" "(rofi-wayland)" \
@@ -48,7 +48,7 @@ GDK_BACKEND=$BACKEND yad \
 " SHIFT Q" "Hyprland Exit" "(NOTE: Hyprland Will exit immediately)" \
 " F" "Fake Fullscreen" "Toggles to fake full screen" \
 " SHIFT F" "Fullscreen" "Toggles to full screen" \
-" SPACE" "Toggle float" "single window" \
+" CTRL F" "Toggle float" "single window" \
 " ALT O" "Toggle Blur" "normal or less blur" \
 " O" "Toggle Opaque ON or OFF" "on active window only" \
 " Shift A" "Animations Menu" "Choose Animations via rofi" \
@@ -56,4 +56,5 @@ GDK_BACKEND=$BACKEND yad \
 " CTRL Shift R" "Rofi Themes Menu v2" "Choose Rofi Themes via Theme Selector (modified)" \
 " SHIFT G" "Gamemode! All animations OFF or ON" "toggle" \
 " ." "Rofi Emoticons" "Emoticon" \
+" SPACE" "Change keyboard layout" "By default layouts are es and us (intl)" \
 " H" "Launch this Quick Cheat Sheet" "" \

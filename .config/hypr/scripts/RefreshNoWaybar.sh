@@ -1,12 +1,10 @@
 #!/bin/bash
-# /* ---- 💫 https://github.com/JaKooLit 💫 ---- */  ##
 
 # Modified version of Refresh.sh but waybar wont refresh
 # Used by automatic wallpaper change
 # Modified inorder to refresh rofi background, Wallust, SwayNC only
 
 SCRIPTSDIR=$HOME/.config/hypr/scripts
-UserScripts=$HOME/.config/hypr/UserScripts
 
 # Define file_exists function
 file_exists() {
@@ -33,8 +31,8 @@ ${SCRIPTSDIR}/WallustSwww.sh &
 
 # Relaunching rainbow borders if the script exists
 sleep 1
-if file_exists "${UserScripts}/RainbowBorders.sh"; then
-    ${UserScripts}/RainbowBorders.sh &
+if file_exists "${SCRIPTSDIR}/RainbowBorders.sh"; then
+    ${SCRIPTSDIR}/RainbowBorders.sh &
 fi
 
 

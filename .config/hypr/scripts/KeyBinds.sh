@@ -13,7 +13,7 @@ fi
 user_keybinds_conf="$HOME/.config/hypr/configs/UserKeybinds.conf"
 laptop_conf="$HOME/.config/hypr/configs/Laptops.conf"
 rofi_theme="$HOME/.config/rofi/config-keybinds.rasi"
-msg='☣️ NOTE ☣️: Clicking with Mouse or Pressing ENTER will have NO function'
+msg='Clicking or ENTER will have NO function'
 
 # combine the contents of the keybinds files and filter for keybinds
 keybinds=$(cat "$keybinds_conf" "$user_keybinds_conf" | grep -E '^bind')

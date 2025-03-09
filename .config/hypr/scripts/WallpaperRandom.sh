@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for Random Wallpaper ( CTRL ALT W)
+# Script for Random Wallpaper
 
 wallDIR="$HOME/Pictures/wallpapers"
 SCRIPTSDIR="$HOME/.config/hypr/scripts"
