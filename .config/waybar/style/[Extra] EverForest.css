@@ -89,6 +89,12 @@ window#waybar.hidden {
   color: @black;
 }
 
+
+#workspaces button.visible {
+  background: #EBCB8B; /* Amarillo */
+  color: black;
+}
+
 #taskbar button.active,
 #workspaces button.active {
   background-color: @grey0;

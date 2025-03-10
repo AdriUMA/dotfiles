@@ -11,7 +11,7 @@
 	"all-outputs": true,
 	"format": "{icon}",
 	"show-special": false,
-	"on-click": "activate",
+	"on-click": "~/.config/waybar/scripts/ShiftWorkspace.sh {name}",
 	"on-scroll-up": "hyprctl dispatch workspace e+1",
 	"on-scroll-down": "hyprctl dispatch workspace e-1",
     "persistent-workspaces": {
@@ -172,12 +172,13 @@
 	"warp-on-scroll": false,
 	"sort-by-number": true,
 	"show-special": false,
-	"on-click": "activate",
-	"on-scroll-up": "hyprctl dispatch workspace e+1",
-	"on-scroll-down": "hyprctl dispatch workspace e-1",
-	"persistent-workspaces": {
-		"*": 5
-	  },
+	"activate-only": false,
+	"on-click": "~/.config/waybar/scripts/ShiftWorkspace.sh {name}",
+	"on-scroll-up": "~/.config/waybar/scripts/ShiftWorkspace.sh +1",
+	"on-scroll-down": "~/.config/waybar/scripts/ShiftWorkspace.sh -1",
+	// "persistent-workspaces": {
+	// 	"*": 6
+	// },
 	"format": "{icon} {windows}",
 	"format-window-separator": " ",
 	"window-rewrite-default": " ",

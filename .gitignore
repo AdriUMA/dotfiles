@@ -6,13 +6,11 @@
 !.local
 !.oh-my-zsh
 
-
 # Keep files
 !.bash_logout
 !.bash_profile
 !.bashrc
 !.gitignore
-#!.gtkrc-2.0 #Sync styles between computers
 !.zshrc
 !.zprofile
 !README.arch.md
