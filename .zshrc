@@ -25,9 +25,9 @@ source $ZSH/oh-my-zsh.sh
 fastfetch -c $HOME/.config/fastfetch/config.jsonc
 
 # Set-up icons for files/folders in terminal
-alias ls='eza -a --icons'
-alias ll='eza -al --icons'
-alias lt='eza -a --tree --level=1 --icons'
+alias ls='eza --icons auto'
+alias ll='eza -al --icons auto'
+alias lt='eza -a --tree --level=1 --icons auto'
 
 alias grep='grep --color=auto'
 alias cat='bat'
