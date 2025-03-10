@@ -173,9 +173,9 @@
 	"sort-by-number": true,
 	"show-special": false,
 	"activate-only": false,
-	"on-click": "~/.config/waybar/scripts/ShiftWorkspace.sh {name}",
-	"on-scroll-up": "~/.config/waybar/scripts/ShiftWorkspace.sh +1",
-	"on-scroll-down": "~/.config/waybar/scripts/ShiftWorkspace.sh -1",
+	"on-click": "~/.config/hypr/scripts/ChangeWorkspace.sh {name} --by-mouse --no-move-cursor",
+	"on-scroll-up": "~/.config/hypr/scripts/ChangeWorkspace.sh --forward --by-mouse --no-move-cursor",
+	"on-scroll-down": "~/.config/hypr/scripts/ChangeWorkspace.sh --back --by-mouse --no-move-cursor",
 	// "persistent-workspaces": {
 	// 	"*": 6
 	// },
