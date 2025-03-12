@@ -2,7 +2,7 @@
 
 # Variables
 rofi_theme="$HOME/.config/rofi/config-emoji.rasi"
-msg='** note ** 👀 Click or Return to choose || Ctrl V to Paste'
+msg='Click or Return copy to clipboard'
 
 # Check if rofi is already running
 if pidof rofi > /dev/null; then

@@ -7,8 +7,8 @@ cache_dir="$HOME/.cache/swww/"
 # Get a list of monitor outputs
 monitor_outputs=($(ls "$cache_dir"))
 
-# Initialize a flag to determine if the ln command was executed
-ln_success=false
+# Initialize a flag to determine if the cp command was executed
+cp_success=false
 
 # Get current focused monitor
 current_monitor=$(hyprctl monitors | awk '/^Monitor/{name=$2} /focused: yes/{print name}')
@@ -21,16 +21,16 @@ if [ -f "$cache_file" ]; then
     # Get the wallpaper path from the cache file
     wallpaper_path=$(grep -v 'Lanczos3' "$cache_file" | head -n 1)
     echo $wallpaper_path
-    # symlink the wallpaper to the location Rofi can access
-    if ln -sf "$wallpaper_path" "$HOME/.config/rofi/.current_wallpaper"; then
-        ln_success=true  # Set the flag to true upon successful execution
+    # Copy the wallpaper to the location Rofi can access
+    if cp "$wallpaper_path" "$HOME/.config/rofi/.current_wallpaper"; then
+        cp_success=true  # Set the flag to true upon successful execution
     fi
     # copy the wallpaper for wallpaper effects
 	cp -r "$wallpaper_path" "$HOME/.config/hypr/wallpaper_effects/.wallpaper_current"
 fi
 
 # Check the flag before executing further commands
-if [ "$ln_success" = true ]; then
+if [ "$cp_success" = true ]; then
     # execute wallust
 	echo 'about to execute wallust'
     # execute wallust skipping tty and terminal changes

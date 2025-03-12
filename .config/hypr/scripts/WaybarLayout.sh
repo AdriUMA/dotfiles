@@ -22,7 +22,7 @@ menu() {
 
 # Apply selected configuration
 apply_config() {
-    ln -sf "$waybar_layouts/$1" "$waybar_config"
+    cp "$waybar_layouts/$1" "$waybar_config"
     "${SCRIPTSDIR}/Refresh.sh" &
 }
 

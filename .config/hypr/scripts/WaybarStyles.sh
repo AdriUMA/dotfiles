@@ -24,7 +24,7 @@ menu() {
 
 # Apply selected style
 apply_style() {
-    ln -sf "$waybar_styles/$1.css" "$waybar_style"
+    cp "$waybar_styles/$1.css" "$waybar_style"
     "${SCRIPTSDIR}/Refresh.sh" &
 }
 

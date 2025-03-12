@@ -1,7 +1,7 @@
 #!/bin/bash
 # Remember to add city 
 
-city=torremolinos
+city=
 cachedir="~/.cache/rbn"
 cachefile=${0##*/}-$1
 

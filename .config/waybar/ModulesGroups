@@ -90,7 +90,8 @@
 	"modules": [
 		"custom/power",
 		"custom/lock",
-		"keyboard-state",
+		"idle_inhibitor",
+		// "keyboard-state", CAPS LOCK
 		"custom/keyboard",
 	]
 },
@@ -102,8 +103,7 @@
 		"transition-left-to-right": false
         },
 	"modules": [
-		"custom/swaync",
-		"custom/dot_update",
+		"custom/swaync"
 	]
 },
 
