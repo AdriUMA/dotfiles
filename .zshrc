@@ -16,17 +16,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Check archlinux plugin commands here
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux
-
-# Display Pokemon-colorscripts
-# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
-#pokemon-colorscripts --no-title -s -r #without fastfetch
-
 # fastfetch. Will be disabled if above colorscript was chosen to install
 fastfetch -c $HOME/.config/fastfetch/config.jsonc
 
 # Set-up icons for files/folders in terminal
 alias ls='eza --icons auto'
-alias ll='eza -al --icons auto'
+alias ll='eza -l --icons auto'
+alias la='eza -a --icons auto'
 alias lt='eza -a --tree --level=1 --icons auto'
 
 alias grep='grep --color=auto'
