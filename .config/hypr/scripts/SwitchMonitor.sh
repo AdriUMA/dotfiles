@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Obtener la lista de monitores ordenados por ID
-MONITORS=($(hyprctl monitors -j | jq -r '.[].name'))
+# Get the list of monitors sorted by name
+MONITORS=($(hyprctl monitors -j | jq -r '.[].name' | sort))
 
-# Obtener el monitor activo
+# Get the currently active monitor
 ACTIVE_MONITOR=$(hyprctl monitors -j | jq -r '.[] | select(.focused == true) | .name')
 
-# Encontrar el índice del monitor activo
+# Find the index of the active monitor
 for i in "${!MONITORS[@]}"; do
     if [[ "${MONITORS[$i]}" == "$ACTIVE_MONITOR" ]]; then
         CURRENT_INDEX=$i
@@ -14,8 +14,18 @@ for i in "${!MONITORS[@]}"; do
     fi
 done
 
-# Calcular el índice del siguiente monitor (circular)
-NEXT_INDEX=$(( (CURRENT_INDEX + 1) % ${#MONITORS[@]} ))
+# Check the provided argument (--next or --previous)
+if [[ "$1" == "--previous" ]]; then
+    # Calculate the index of the previous monitor (circular)
+    PREV_INDEX=$(( (CURRENT_INDEX - 1 + ${#MONITORS[@]}) % ${#MONITORS[@]} ))
+    TARGET_INDEX=$PREV_INDEX
+else
+    # Default to --next if no argument is provided
+    # Calculate the index of the next monitor (circular)
+    NEXT_INDEX=$(( (CURRENT_INDEX + 1) % ${#MONITORS[@]} ))
+    TARGET_INDEX=$NEXT_INDEX
+fi
 
-# Cambiar el foco al siguiente monitor
-hyprctl dispatch focusmonitor "${MONITORS[$NEXT_INDEX]}"
+# Switch focus to the target monitor
+hyprctl dispatch focusmonitor "${MONITORS[$TARGET_INDEX]}"
+

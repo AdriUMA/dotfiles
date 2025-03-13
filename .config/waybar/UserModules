@@ -5,5 +5,10 @@
 /* IMPORTANT, be mindful with , or ". else waybar will not start */
 
 {
-
+    "custom/screen" : {
+        "format" : "{}",
+        "restart-interval" : 0,
+        // "return-type" : "json",
+        "exec" : "$HOME/.config/waybar/scripts/FocusedScreen.sh",
+    },
 }
