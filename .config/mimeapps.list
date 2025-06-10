@@ -1,3 +1,10 @@
 [Default Applications]
 inode/directory=thunar.desktop
 application/x-wayland-gnome-saved-search=thunar.desktop
+application/octet-stream=code.desktop
+
+[Added Associations]
+application/zip=xarchiver.desktop;org.gnome.Loupe.desktop;
+image/png=org.gnome.Loupe.desktop;
+application/x-php=code.desktop;
+application/octet-stream=code.desktop;
